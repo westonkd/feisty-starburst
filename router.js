@@ -1,19 +1,17 @@
-import React from 'react'
-import { TabNavigator, StackNavigation, DrawerNavigator } from 'react-navigation'
+import React from "react";
+import { StackNavigator } from "react-navigation";
 
-import TodayScreen from './screens/TodayScreen'
-import HistoryScreen from './screens/HistoryScreen'
-import { Backgrounds } from './styles/Global'
+import TodayScreen from "./screens/TodayScreen";
+import HistoryScreen from "./screens/HistoryScreen";
+import { Backgrounds } from "./styles/Global";
 
-export const Tabs = TabNavigator({
-    Today: {
-        screen: TodayScreen
-    },
-    History: {
-        screen: HistoryScreen
-    }
-}, {
-    tabBarOptions: {
-        style: Backgrounds.primaryColor 
-    } 
-})
+export const Stack = StackNavigator({
+  Today: {
+    screen: TodayScreen,
+    navigationOptions: ({ navigation }) => ({
+      headerTransparent: true
+      // headerTitle: "Title"
+      // you can set left and right components
+    })
+  }
+});

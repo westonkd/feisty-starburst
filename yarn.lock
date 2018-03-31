@@ -5290,6 +5290,12 @@ react-native-branch@2.0.0-beta.3:
   version "2.0.0-beta.3"
   resolved "https://registry.yarnpkg.com/react-native-branch/-/react-native-branch-2.0.0-beta.3.tgz#2167af86bbc9f964bd45bd5f37684e5b54965e32"
 
+react-native-countup@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/react-native-countup/-/react-native-countup-0.0.2.tgz#3c8fbf8d364469be3e0989f3ba3c8f2195bfb489"
+  dependencies:
+    react-timer-mixin "^0.13.3"
+
 react-native-dismiss-keyboard@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/react-native-dismiss-keyboard/-/react-native-dismiss-keyboard-1.0.0.tgz#32886242b3f2317e121f3aeb9b0a585e2b879b49"
@@ -5358,6 +5364,12 @@ react-native-scripts@1.11.1:
     qrcode-terminal "^0.11.0"
     rimraf "^2.6.1"
     xdl "48.0.2"
+
+react-native-simple-gauge@^0.1.9:
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/react-native-simple-gauge/-/react-native-simple-gauge-0.1.9.tgz#07b76a5f415e19a27f28ad84f7455e01b8d79217"
+  dependencies:
+    art "^0.10.0"
 
 "react-native-svg@https://github.com/expo/react-native-svg/archive/5.5.1-exp.1.tar.gz":
   version "5.5.1"
@@ -5478,7 +5490,7 @@ react-test-renderer@16.2.0:
     object-assign "^4.1.1"
     prop-types "^15.6.0"
 
-react-timer-mixin@^0.13.2:
+react-timer-mixin@^0.13.2, react-timer-mixin@^0.13.3:
   version "0.13.3"
   resolved "https://registry.yarnpkg.com/react-timer-mixin/-/react-timer-mixin-0.13.3.tgz#0da8b9f807ec07dc3e854d082c737c65605b3d22"
 
